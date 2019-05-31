@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<body>
+		<!---//Início da função sair do sistema---->
+		
+		<a href="login.php" onclick="signOut();">Sair</a>
+		<script>
+		  function signOut() {
+			var auth2 = gapi.auth2.getAuthInstance();
+			auth2.signOut().then(function () {
+			  console.log('User signed out.');
+			});
+		  }
+		</script>
+		
+		<!---//Fim da função sair! ---->
+		</body>
+	</head>
+</html>

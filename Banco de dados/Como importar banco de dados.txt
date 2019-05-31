@@ -1,0 +1,9 @@
+Para importar o banco de dados, abra o arquivo Dump20190514 com o bloco de notas. 
+copie tudo e cole no MySql Workbench;
+
+tbm será necessario colocar o conector do Mysql com java no eclipse. 
+então copie o arquivo mysql-connector-java-5.1.47-bin e cole na pasta lib que esta dentro da pasta WEB-INF que esta dentro da pasta WebContent
+
+WebContent >
+	WEB-INF > 
+		lib
